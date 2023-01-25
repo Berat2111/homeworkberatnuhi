@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    background-image: url("http://www.clker.com/cliparts/K/C/r/p/W/o/grey-oak-tree-hi.png");
+    background-repeat: no-repeat;
+
+}
+
+#header {
+    color: green;
+    font-size: 80px;
+    text-align: center;
+    
+}
+#header:hover {
+    color: yellow;
+}
+
+.firstp {
+    color: pink;
+    font-size: 30px;
+    font-family: serif;
+    text-decoration: dashed;
+    font-style: italic;
+
+
+}
+.firstp::first-letter {
+    font-size: 300%;
+    font-weight: 800;
+    color: rgb(183, 5, 248);
+    
+
+}
+.secondp {
+    color: aqua;
+    font-size: 30px;
+    font-family: serif;
+    text-decoration: underline;
+    font-style: italic;
+
+
+}
+
+.thirdp {
+    color: orange;
+    font-size: 40px;
+    font-family: serif;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 10px;
+}
